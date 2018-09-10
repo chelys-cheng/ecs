@@ -8,7 +8,7 @@
 
 以下任意一组参数可以确定一条安全组入方向规则，只指定一个参数无法确定一条安全组规则。
 
--   撤销指定 IP 地址段的权限设置：`IpProtocol`、`PortRange`、（可选）`SourcePortRange`、`NicType`、`Policy`、`DestCiderIp` 和 （可选）`SourceCidrIp`
+-   撤销指定 IP 地址段的权限设置：`IpProtocol`、`PortRange`、（可选）`SourcePortRange`、`NicType`、`Policy`、（可选）`DestCiderIp` 和 `SourceCidrIp`
 
 -   撤销其他安全组的权限设置：`IpProtocol`、`PortRange`、（可选）`SourcePortRange`、`NicType`、`Policy`、（可选）`DestCiderIp`、`DestGroupOwnerAccount` 和 `DestGroupId`
 
